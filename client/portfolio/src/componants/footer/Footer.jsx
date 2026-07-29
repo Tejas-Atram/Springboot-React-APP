@@ -30,7 +30,7 @@ function Footer() {
             <div className="upper">
                 <div className="something">
                     <span><img src="img/logo.png" /> {user.user_email}</span>
-                    <span>Web designer and front-end developer</span>
+                    <span>FullStack Web Developer with AI </span>
                 </div>
                 <div className="media">
                     <span>Media</span>
@@ -42,7 +42,7 @@ function Footer() {
                 </div>
             </div>
             <div className="lower">
-                © Copyright 2022.
+                © Copyright 2026.
             </div>
         </div>
     </div>

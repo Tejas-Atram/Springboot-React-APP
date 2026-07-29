@@ -1,10 +1,11 @@
 import React from 'react'
 import "./navbar.css"
 import {Link} from "react-scroll"
+import {BsSticky} from "react-icons/all.d.ts";
 
 function Navbar() {
   return (
-    <nav>
+    <nav >
         <div className="logo">
             <img src="img/logo.png" alt="" />
             Portfolio

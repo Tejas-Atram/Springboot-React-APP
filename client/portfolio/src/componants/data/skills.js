@@ -1,14 +1,17 @@
 export const skills = {
     languages : [
         "TypeScript",
-        "Lua",
+        "Java",
         "Python",
-        "JavaScript"
+        "JavaScript",
+        "C#"
     ],
     DataBases : [
         "SQLite",
         "PostgreSQL",
-        "Mongo"
+        "MongoDB",
+        "Pinecone",
+        "Weaviate"
     ],
     Other : [
         "HTML",
@@ -20,19 +23,19 @@ export const skills = {
     ],
     Tools : [
         "VSCode",
-        "Neovim",
+        "DBeaver",
         "Linux",
-        "XFCE",
-        "Arch",
-        "Git",
+        "JUnit 5",
+        "Postman",
+        "Git & GitHub / GitLab / Bitbucket",
         "Font Awesome",
-        "Figma"
+        "Docker"
     ],
     Frameworks : [
         "React",
-        "Vue",
-        "Disnake",
-        "Discord.js",
+        "Next",
+        "Springboot",
+        "Fast API",
         "Flask",
         "Express.js"
     ],

@@ -26,7 +26,7 @@ function Projects() {
                   <p>
                     {item.snippet}
                   </p>
-                  <Button name="live" symbol = "<~>" />
+                  <Button name="live" symbol = "<~>" href={item.link}/>
                 </div>
               </div>
             )

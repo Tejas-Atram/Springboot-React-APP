@@ -18,7 +18,7 @@ function Landing(props) {
       </div>
       <div className="intro">
         <h3>
-          {props.user.user_name} is a <span> web designer </span> and <span> {props.user.user_speciality} </span>
+          {props.user.user_name} Tejas is a <span> Fullstack Web Developer </span> and <span> {props.user.user_speciality} </span>
         </h3>
         <p>
         He crafts responsive websites where technologies<br/>meet creativity
@@ -30,7 +30,7 @@ function Landing(props) {
         <img src="img/landing.png" alt="" />
         <p>
           <span></span>
-          Currently working on portfolio project
+          Currently working on portfolio project..
         </p>
       </div>
     </div>

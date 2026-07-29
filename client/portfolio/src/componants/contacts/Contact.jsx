@@ -23,7 +23,7 @@ function Contact() {
 
   return (
     <div id = "contact">
-        <Title title="contacts"/>
+        <Title title="Contact Me"/>
         <div className="contact">
             <div className="p">
             I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me

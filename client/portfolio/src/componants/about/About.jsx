@@ -28,7 +28,7 @@ function About() {
   }
   return (
     <div id='about'>
-        <Title title = "about-me" componant="about"/>
+        <Title title = "About-me" componant="about"/>
         <div className="about">
             <div className="parag">
 

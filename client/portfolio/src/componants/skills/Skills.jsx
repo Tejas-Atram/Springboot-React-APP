@@ -7,7 +7,7 @@ import "./skills.css"
 function Skills() {
   return (
     <main id='skills'>
-        <Title title ="skills" componant="skills" />
+        <Title title ="Skills" componant="skills" />
         <div className="skills">
             <div className="left-side">
                 <img src="img/dots.png" alt="" />
