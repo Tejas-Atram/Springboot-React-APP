@@ -1,6 +1,6 @@
 import React from 'react'
 import "./footer.css"
-import {AiOutlineMail} from "react-icons/ai"
+import {AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineMail} from "react-icons/ai"
 import { useState } from 'react'
 import { useEffect } from 'react'
 import axios from 'axios'
@@ -35,9 +35,9 @@ function Footer() {
                 <div className="media">
                     <span>Media</span>
                     <span> 
-                        <AiOutlineMail />
-                        <AiOutlineMail />
-                        <AiOutlineMail />
+                        <AiFillInstagram />
+                        <AiFillGithub />
+                        <AiFillLinkedin />
                     </span>
                 </div>
             </div>
