@@ -1,9 +1,14 @@
+// import { Link } from 'react-router-dom';
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import "./navbar.css"
 import {Link} from "react-scroll"
+import SignupButton from "../signup/SignupButton.jsx"
+import LoginButton from "../signup/LoginButton.jsx";
 import {BsSticky} from "react-icons/all.d.ts";
 
 function Navbar() {
+    const navigate = useNavigate();
   return (
     <nav >
         <div className="logo">
@@ -17,6 +22,8 @@ function Navbar() {
             <li><span>#</span> <Link to ='projects' smooth={true}>experience</Link> </li>
             <li><span>#</span> <Link to='contact' smooth={true}>contact</Link> </li>
         </ul>
+        <SignupButton onClick={() => navigate('/signup')} />
+        <LoginButton onClick={() => navigate('/login')} />
     </nav>
   )
 }

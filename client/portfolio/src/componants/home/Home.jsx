@@ -14,7 +14,7 @@ import Modify from '../modifyForm/Modify'
 function Home(props) {
   return (
     <div className='home--layout'>
-        <Styles />
+        <Styles user={props.user} />
         <NavBar />
         <Landing user={props.user}/>
         <Quote />
