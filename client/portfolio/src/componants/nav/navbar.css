@@ -1,28 +1,44 @@
 nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 46px 0 8px 0px;
+    padding: 16px 24px;
+    background-color: #121212; /* Essential for a sticky nav */
 }
+
 nav .logo {
     font-weight: bolder;
     color: white;
     display: flex;
     align-items: center;
+    gap: 8px; /* Adds space between the logo image and text */
 }
+
 nav .logo img {
     width: 35px;
 }
 
 nav ul {
     display: flex;
-    gap: 10px;
+    gap: 24px;
     text-transform: capitalize;
     list-style: none;
-    cursor: pointer;
 }
 
 nav ul li span {
     color: var(--primary-color);
-    
+}
+
+nav ul li a {
+    color: #c0c0c0;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: white;
 }

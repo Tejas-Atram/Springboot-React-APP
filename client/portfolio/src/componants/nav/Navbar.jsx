@@ -10,7 +10,7 @@ import {BsSticky} from "react-icons/all.d.ts";
 function Navbar() {
     const navigate = useNavigate();
   return (
-    <nav >
+    <nav className={"sticky top-0 z-50"} >
         <div className="logo">
             <img src="img/logo.png" alt="" />
             Portfolio
