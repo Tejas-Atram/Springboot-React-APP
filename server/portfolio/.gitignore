@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+auth-credentials.txt
+serviceAccountKey.json
+.env
